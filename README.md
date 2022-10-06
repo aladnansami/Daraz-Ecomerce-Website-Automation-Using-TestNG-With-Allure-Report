@@ -10,7 +10,9 @@ Intelij Idea
 - Report (Allure)
 
 ## Run
-``` gradle clean test 
-```
+````
+ gradle clean test 
+
+````
 ## Report
 Waiting...
