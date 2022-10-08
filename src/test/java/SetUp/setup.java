@@ -1,10 +1,13 @@
 package SetUp;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 
 import java.io.IOException;
 import java.time.Duration;
@@ -19,6 +22,10 @@ public class setup {
         driver = new ChromeDriver(ops);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+    }
+    @After
+    public void exitBrowser(){
+        driver.quit();
     }
 
 }
