@@ -15,4 +15,5 @@ Intelij Idea
 
 ````
 ## Report
+Allure Run <br>
 Waiting...
