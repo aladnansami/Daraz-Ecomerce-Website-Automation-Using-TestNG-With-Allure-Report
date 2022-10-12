@@ -6,7 +6,7 @@ https://www.daraz.com.bd/
 ## Lang
 Java
 ## IDE 
-Intelij Idea
+Intelij IDEA
 - Framework [Selenium(Testng)]
 - Report (Allure)
 
